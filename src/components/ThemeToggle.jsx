@@ -9,7 +9,7 @@ const ThemeToggle = () => {
       onClick={toggleTheme}
       className="  px-3 py-2  text-sm font-medium"
     >
-      <img className={`h-8 w-8 rounded-full p-1`} src={`${theme === 'light' ? './src/assets/brightness.png' : './src/assets/night-mode.png'}`} />
+      <img className={`h-8 w-8 rounded-full p-1`} src={`${theme === 'light' ? 'assets/brightness.png' : 'assets/night-mode.png'}`} />
     </button>
   );
 };
