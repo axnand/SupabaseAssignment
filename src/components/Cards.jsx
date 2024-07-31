@@ -25,13 +25,15 @@ export function WobbleCardDemo() {
                       Every project is a full Postgres database, the world's most trusted relational database.
                     </p>
                   </div>
+                  <div className="">
                   <img
                     src="/cardimg/postgresql.svg"
-                    width={200}
-                    height={200}
+                    width={175}
+                    height={175}
                     alt="Postgres logo"
-                    className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 object-contain grayscale filter"
+                    className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 object-contain grayscale filter "
                   />
+                  </div>
                 </div>
               </WobbleCard>
               
@@ -105,8 +107,8 @@ export function WobbleCardDemo() {
                   </div>
                   <img
                     src="/cardimg/storage.svg"
-                    width={200}
-                    height={200}
+                    width={175}
+                    height={175}
                     alt="Postgres logo"
                     className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 object-contain grayscale filter"
                   />
