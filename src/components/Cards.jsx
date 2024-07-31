@@ -26,7 +26,7 @@ export function WobbleCardDemo() {
                     </p>
                   </div>
                   <img
-                    src="./public/cardimg/postgresql.svg"
+                    src="/cardimg/postgresql.svg"
                     width={200}
                     height={200}
                     alt="Postgres logo"
@@ -51,7 +51,7 @@ export function WobbleCardDemo() {
                     </div>
                     <div>
                     <img
-                    src="./public/cardimg/safe-user.svg"
+                    src="/cardimg/safe-user.svg"
                     width={100}
                     height={100}
                     alt="Postgres logo"
@@ -78,7 +78,7 @@ export function WobbleCardDemo() {
                     </div>
                     <div>
                     <img
-                    src="./public/cardimg/safe-user.svg"
+                    src="/cardimg/safe-user.svg"
                     width={100}
                     height={100}
                     alt="Postgres logo"
@@ -104,7 +104,7 @@ export function WobbleCardDemo() {
                     </p>
                   </div>
                   <img
-                    src="./public/cardimg/storage.svg"
+                    src="/cardimg/storage.svg"
                     width={200}
                     height={200}
                     alt="Postgres logo"

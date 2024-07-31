@@ -8,20 +8,20 @@ import { InfiniteMovingCardsDemo } from '../components/MovingCards';
 const HomePage = () => {
 
   const imageSources = {
-    mozilla: '../../public/logo/mozilla.svg',
-    password: '../../public/logo/1password.svg',
-    pwc: '../../public/logo/pwc.svg',
-    pika: '../../public/logo/pika.svg',
-    humata: '../../public/logo/humata.svg',
-    krea: '../../public/logo/krea.svg',
-    udio: '../../public/logo/udio.svg',
-    langchain: '../../public/logo/langchain.svg',
-    resend: '../../public/logo/resend.svg',
-    loops: '../../public/logo/loops.svg',
-    mobbin: '../../public/logo/mobbin.svg',
-    gopuff: '../../public/logo/gopuff.svg',
-    chatbase: '../../public/logo/chatbase.svg',
-    betashares: '../../public/logo/betashares.svg',
+    mozilla: '/logo/mozilla.svg',
+    password: '/logo/1password.svg',
+    pwc: '/logo/pwc.svg',
+    pika: '/logo/pika.svg',
+    humata: '/logo/humata.svg',
+    krea: '/logo/krea.svg',
+    udio: '/logo/udio.svg',
+    langchain: '/logo/langchain.svg',
+    resend: '/logo/resend.svg',
+    loops: '/logo/loops.svg',
+    mobbin: '/logo/mobbin.svg',
+    gopuff: '/logo/gopuff.svg',
+    chatbase: '/logo/chatbase.svg',
+    betashares: '/logo/betashares.svg',
   };
 
   return (
