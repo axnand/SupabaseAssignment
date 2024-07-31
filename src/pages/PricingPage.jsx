@@ -183,7 +183,7 @@ const PricingPage = () => {
               experiences.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button variant="outline" className="w-full min-[400px]:w-auto">
+              <Button variant="secondary" className="w-full min-[400px]:w-auto">
                 Contact Sales
               </Button>
               <Button className="w-full min-[400px]:w-auto">Sign Up</Button>

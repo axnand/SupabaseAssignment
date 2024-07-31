@@ -58,7 +58,7 @@ const DashboardPage = () => {
   <header className="flex flex-col sm:flex-row items-center justify-between mb-6 space-y-4 sm:space-y-0">
     <h2 className="text-xl font-semibold">Projects</h2>
     <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-      <Button variant="primary" className="w-full sm:w-auto">New project</Button>
+      <Button variant="default" className="w-full sm:w-auto">New project</Button>
       <Button variant="secondary" className="w-full sm:w-auto">New organization</Button>
       <Input type="search" placeholder="Search for a project" className="w-full sm:w-64 bg-gray-800 border border-gray-700" />
       <Button variant="secondary" className="w-full sm:w-auto">
@@ -66,10 +66,10 @@ const DashboardPage = () => {
       </Button>
     </div>
   </header>
-  <section className="flex flex-col items-center justify-center h-full">
+  <section className="flex flex-col items-center justify-center lg:h-full">
     <h3 className="text-2xl font-semibold mb-2">No projects</h3>
     <p className="text-gray-400 mb-4">Get started by creating a new project.</p>
-    <Button variant="primary">+ New Project</Button>
+    <Button variant="default">+ New Project</Button>
   </section>
 </main>
 

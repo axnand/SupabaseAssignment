@@ -9,25 +9,25 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <MountainIcon className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold">Acme ISP</span>
+            <span className="text-xl font-bold">SupaBase</span>
           </div>
-          <p className="text-sm">Providing reliable internet services to homes and businesses since 2010.</p>
+          <p className="text-sm">Supabase is an open-source Firebase alternative. Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.</p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="grid gap-2">
             <h4 className="text-sm font-medium">Quick Links</h4>
             <nav className="grid gap-1">
-              <Link href="#" className="text-sm hover:underline" prefetch={false}>
+              <Link to="/" className="text-sm hover:underline" >
                 Home
               </Link>
-              <Link href="#" className="text-sm hover:underline" prefetch={false}>
-                Plans
+              <Link to="https://anandmohan.vercel.app" className="text-sm hover:underline" >
+                Know Me
               </Link>
-              <Link href="#" className="text-sm hover:underline" prefetch={false}>
-                About
+              <Link to="/pricing" className="text-sm hover:underline" >
+                Pricing
               </Link>
-              <Link href="#" className="text-sm hover:underline" prefetch={false}>
-                Contact
+              <Link to="/dashboard" className="text-sm hover:underline" >
+                Dashboard
               </Link>
             </nav>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MailIcon className="w-4 h-4" />
-                <span>support@acmeisp.com</span>
+                <span>support@supabase.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPinIcon className="w-4 h-4" />
@@ -52,26 +52,26 @@ const Footer = () => {
         <div className="grid gap-4">
           <h4 className="text-sm font-medium">Follow Us</h4>
           <div className="flex items-center gap-2">
-            <Link href="#" className="text-primary hover:text-primary-foreground" prefetch={false}>
+            <Link to="#" className="text-primary hover:text-primary-foreground" >
               <FacebookIcon className="w-5 h-5" />
             </Link>
-            <Link href="#" className="text-primary hover:text-primary-foreground" prefetch={false}>
+            <Link to="#" className="text-primary hover:text-primary-foreground" >
               <TwitterIcon className="w-5 h-5" />
             </Link>
-            <Link href="#" className="text-primary hover:text-primary-foreground" prefetch={false}>
+            <Link to="#" className="text-primary hover:text-primary-foreground" >
               <InstagramIcon className="w-5 h-5" />
             </Link>
           </div>
         </div>
       </div>
       <div className="container mx-auto mt-8 px-4 md:px-6 flex flex-col md:flex-row items-center justify-between text-xs">
-        <p>&copy; 2024 Acme ISP. All rights reserved.</p>
+        <p>&copy; 2024 <span><u><Link to={"https://anandmohan.vercel.app"} target='_blank'>Anand</Link></u></span>. All rights reserved.</p>
         <div className="flex items-center gap-4">
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link to="#" className="hover:underline" >
             Privacy Policy
           </Link>
           <Separator orientation="vertical" />
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link to="#" className="hover:underline" >
             Terms of Service
           </Link>
         </div>
