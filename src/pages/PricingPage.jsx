@@ -7,8 +7,8 @@ import Input from '../ui/Input';
 const PricingPage = () => {
   return (
 
-        <div className="flex min-h-screen bg-zinc-900 text-white">
-          <aside className="w-64 p-4 border-r border-gray-700">
+        <div className="flex min-h-screen dark:bg-zinc-900 bg-gray-100 dark:text-white text-zinc-900">
+          <aside className="w-64 p-4 border-r border-gray-300 dark:border-gray-700">
             <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
             <nav className="space-y-4">
               <div>
