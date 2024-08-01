@@ -54,7 +54,7 @@ export function NavPhone() {
               <ListItem href="/dashboard" title="Dashboard">
                 
               </ListItem>
-              <ListItem href="https://anandmohan.vercel.app" title="Know Me">
+              <ListItem href="https://anandmodhan.vercel.app" title="Know Me">
                 
               </ListItem>
             </ul>
