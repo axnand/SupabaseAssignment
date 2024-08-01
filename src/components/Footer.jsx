@@ -20,7 +20,7 @@ const Footer = () => {
               <Link to="/" className="text-sm hover:underline" >
                 Home
               </Link>
-              <Link to="https://anandmohdan.vercel.app" className="text-sm hover:underline" >
+              <Link to="https://anandmohan.vercel.app" className="text-sm hover:underline" >
                 Know Me
               </Link>
               <Link to="/pricing" className="text-sm hover:underline" >
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container mx-auto mt-8 px-4 md:px-6 flex flex-col md:flex-row items-center justify-between text-xs">
-        <p>&copy; 2024 <span><u><Link to={"https://anandmohand.vercel.app"} target='_blank'>Anand</Link></u></span>. All rights reserved.</p>
+        <p>&copy; 2024 <span><u><Link to={"https://anandmohan.vercel.app"} target='_blank'>Anand</Link></u></span>. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link to="#" className="hover:underline" >
             Privacy Policy

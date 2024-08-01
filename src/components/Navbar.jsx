@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex justify-center">
             <div className="inline-flex items-center">
-              <a href='https://ananddmohan.vercel.app' target='blank'><img className="h-8 w-8" src={`${theme === 'dark' ? 'assets/logo.png' : 'assets/logodark.png'}`} alt="Logo" /></a>
+              <a href='https://anandmohan.vercel.app' target='blank'><img className="h-8 w-8" src={`${theme === 'dark' ? 'assets/logo.png' : 'assets/logodark.png'}`} alt="Logo" /></a>
             </div>
             </div>
             <div className='flex'>
