@@ -80,7 +80,7 @@ export function WobbleCardDemo() {
                     </div>
                     <div>
                     <img
-                    src="/cardimg/safe-user.svg"
+                    src="/cardimg/preferences.png"
                     width={100}
                     height={100}
                     alt="Postgres logo"
@@ -106,9 +106,9 @@ export function WobbleCardDemo() {
                     </p>
                   </div>
                   <img
-                    src="/cardimg/storage.svg"
-                    width={175}
-                    height={175}
+                    src="/cardimg/database.png"
+                    width={150}
+                    height={150}
                     alt="Postgres logo"
                     className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 object-contain grayscale filter"
                   />
